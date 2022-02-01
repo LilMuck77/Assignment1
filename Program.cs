@@ -85,7 +85,7 @@ class Program
                 StreamWriter.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}", TicketID, Summary, Status, Priority, Submitter, Assigned, Watchers);
 
                 Console.WriteLine("File successfully created...");
-                Console.WriteLine("Reading File now...");
+                
               
                 StreamWriter.Close();
                
